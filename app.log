@@ -1,0 +1,46 @@
+2022-07-17 14:07:59,441 INFO [main] c.e.d.SareetaApplication [StartupInfoLogger.java:50] Starting SareetaApplication on DungNT with PID 5300 (C:\Users\dungn\Documents\Project4\nd035-c4-Security-and-DevOps\starter_code\target\classes started by dungn in C:\Users\dungn\Documents\Project4\nd035-c4-Security-and-DevOps)
+2022-07-17 14:07:59,442 DEBUG [main] c.e.d.SareetaApplication [StartupInfoLogger.java:53] Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2022-07-17 14:07:59,443 INFO [main] c.e.d.SareetaApplication [SpringApplication.java:675] No active profile set, falling back to default profiles: default
+2022-07-17 14:08:00,983 DEBUG [main] c.e.d.s.JWTAuthenticationVerificationFilter [GenericFilterBean.java:241] Filter 'JWTAuthenticationVerificationFilter' configured for use
+2022-07-17 14:08:01,258 INFO [main] c.e.d.SareetaApplication [StartupInfoLogger.java:59] Started SareetaApplication in 1.931 seconds (JVM running for 2.27)
+2022-07-17 14:08:10,374 ERROR [http-nio-8080-exec-1] c.e.d.c.UserController [UserController.java:56] Password must be at least 8 characters. Unable to create user test1
+2022-07-17 14:10:16,638 INFO [http-nio-8080-exec-4] c.e.d.c.UserController [UserController.java:65] Success creating user test
+2022-07-17 14:10:38,475 ERROR [http-nio-8080-exec-5] c.e.d.c.UserController [UserController.java:60] Confirmed Password not match
+2022-07-17 14:10:45,760 INFO [http-nio-8080-exec-7] c.e.d.c.UserController [UserController.java:65] Success creating user admin
+2022-07-17 14:13:54,782 DEBUG [http-nio-8080-exec-4] c.e.d.s.JWTAuthenticationFilter [AbstractAuthenticationProcessingFilter.java:206] Request is to process authentication
+2022-07-17 14:13:54,785 INFO [http-nio-8080-exec-4] c.e.d.s.JWTAuthenticationFilter [JWTAuthenticationFilter.java:37] User admin try to get authentication!
+2022-07-17 14:13:56,724 DEBUG [http-nio-8080-exec-5] c.e.d.s.JWTAuthenticationFilter [AbstractAuthenticationProcessingFilter.java:206] Request is to process authentication
+2022-07-17 14:13:56,725 INFO [http-nio-8080-exec-5] c.e.d.s.JWTAuthenticationFilter [JWTAuthenticationFilter.java:37] User admin try to get authentication!
+2022-07-17 21:32:13,834 INFO [main] c.e.d.SareetaApplication [StartupInfoLogger.java:50] Starting SareetaApplication on DungNT with PID 2084 (C:\Users\dungn\Documents\Project4\nd035-c4-Security-and-DevOps\starter_code\target\classes started by dungn in C:\Users\dungn\Documents\Project4\nd035-c4-Security-and-DevOps)
+2022-07-17 21:32:13,835 DEBUG [main] c.e.d.SareetaApplication [StartupInfoLogger.java:53] Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2022-07-17 21:32:13,835 INFO [main] c.e.d.SareetaApplication [SpringApplication.java:675] No active profile set, falling back to default profiles: default
+2022-07-17 21:32:15,551 DEBUG [main] c.e.d.s.JWTAuthenticationVerificationFilter [GenericFilterBean.java:241] Filter 'JWTAuthenticationVerificationFilter' configured for use
+2022-07-17 21:32:15,866 INFO [main] c.e.d.SareetaApplication [StartupInfoLogger.java:59] Started SareetaApplication in 2.157 seconds (JVM running for 4.352)
+2022-07-17 22:52:37,721 INFO [http-nio-8080-exec-6] c.e.d.c.UserController [UserController.java:65] Success creating user admin1
+2022-07-17 22:52:44,108 INFO [http-nio-8080-exec-7] c.e.d.c.UserController [UserController.java:65] Success creating user admin2
+2022-07-17 22:52:49,569 INFO [http-nio-8080-exec-8] c.e.d.c.UserController [UserController.java:65] Success creating user admin3
+2022-07-17 23:02:44,050 INFO [http-nio-8080-exec-2] c.e.d.c.UserController [UserController.java:65] Success creating user admin4
+2022-07-17 23:02:52,619 INFO [http-nio-8080-exec-1] c.e.d.c.UserController [UserController.java:65] Success creating user admin5
+2022-07-17 23:13:37,173 ERROR [http-nio-8080-exec-4] c.e.d.c.UserController [UserController.java:56] Password must be at least 8 characters. Unable to create user admin7
+2022-07-17 23:13:37,780 ERROR [http-nio-8080-exec-7] c.e.d.c.UserController [UserController.java:56] Password must be at least 8 characters. Unable to create user admin7
+2022-07-17 23:13:38,416 ERROR [http-nio-8080-exec-9] c.e.d.c.UserController [UserController.java:56] Password must be at least 8 characters. Unable to create user admin7
+2022-07-17 23:13:38,682 ERROR [http-nio-8080-exec-2] c.e.d.c.UserController [UserController.java:56] Password must be at least 8 characters. Unable to create user admin7
+2022-07-17 23:13:39,148 ERROR [http-nio-8080-exec-3] c.e.d.c.UserController [UserController.java:56] Password must be at least 8 characters. Unable to create user admin7
+2022-07-17 23:13:39,748 ERROR [http-nio-8080-exec-4] c.e.d.c.UserController [UserController.java:56] Password must be at least 8 characters. Unable to create user admin7
+2022-07-17 23:13:40,183 ERROR [http-nio-8080-exec-7] c.e.d.c.UserController [UserController.java:56] Password must be at least 8 characters. Unable to create user admin7
+2022-07-17 23:13:40,804 ERROR [http-nio-8080-exec-9] c.e.d.c.UserController [UserController.java:56] Password must be at least 8 characters. Unable to create user admin7
+2022-07-17 23:13:41,403 ERROR [http-nio-8080-exec-2] c.e.d.c.UserController [UserController.java:56] Password must be at least 8 characters. Unable to create user admin7
+2022-07-17 23:21:03,744 DEBUG [http-nio-8080-exec-7] c.e.d.s.JWTAuthenticationFilter [AbstractAuthenticationProcessingFilter.java:206] Request is to process authentication
+2022-07-17 23:21:03,747 INFO [http-nio-8080-exec-7] c.e.d.s.JWTAuthenticationFilter [JWTAuthenticationFilter.java:37] User admin7 try to get authentication!
+2022-07-17 23:37:26,682 DEBUG [http-nio-8080-exec-4] c.e.d.s.JWTAuthenticationFilter [AbstractAuthenticationProcessingFilter.java:206] Request is to process authentication
+2022-07-17 23:37:26,684 INFO [http-nio-8080-exec-4] c.e.d.s.JWTAuthenticationFilter [JWTAuthenticationFilter.java:37] User admin1 try to get authentication!
+2022-07-17 23:37:51,996 DEBUG [http-nio-8080-exec-6] c.e.d.s.JWTAuthenticationFilter [AbstractAuthenticationProcessingFilter.java:206] Request is to process authentication
+2022-07-17 23:37:51,997 INFO [http-nio-8080-exec-6] c.e.d.s.JWTAuthenticationFilter [JWTAuthenticationFilter.java:37] User admin1 try to get authentication!
+2022-07-17 23:42:27,815 ERROR [http-nio-8080-exec-10] c.e.d.c.UserController [UserController.java:60] Confirmed Password not match
+2022-07-17 23:43:17,644 INFO [http-nio-8080-exec-9] c.e.d.c.UserController [UserController.java:65] Success creating user dungnt
+2022-07-17 23:44:47,739 DEBUG [http-nio-8080-exec-1] c.e.d.s.JWTAuthenticationFilter [AbstractAuthenticationProcessingFilter.java:206] Request is to process authentication
+2022-07-17 23:44:47,740 INFO [http-nio-8080-exec-1] c.e.d.s.JWTAuthenticationFilter [JWTAuthenticationFilter.java:37] User dungnt try to get authentication!
+2022-07-17 23:45:25,098 ERROR [http-nio-8080-exec-4] c.e.d.c.CartController [CartController.java:42] User admin not found
+2022-07-17 23:45:31,166 ERROR [http-nio-8080-exec-6] c.e.d.c.CartController [CartController.java:42] User admin not found
+2022-07-17 23:46:29,096 ERROR [http-nio-8080-exec-7] c.e.d.c.CartController [CartController.java:42] User admin not found
+2022-07-17 23:49:20,318 INFO [http-nio-8080-exec-9] c.e.d.c.OrderController [OrderController.java:43] OrderId: 1 has been created by user: dungnt
