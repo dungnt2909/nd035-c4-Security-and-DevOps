@@ -50,8 +50,12 @@ public class UserController {
 		User user = new User();
 		user.setUsername(createUserRequest.getUsername());
 		Cart cart = new Cart();
-		cartRepository.save(cart);
-		user.setCart(cart);
+		try {
+			cartRepository.save(cart);
+			user.setCart(cart);
+		} catch (Exception e) {
+			log.error("Cart is empty");
+		}
 		if(createUserRequest.getPassword().length()<7){
 			log.error("Password must be at least 8 characters. Unable to create user " + createUserRequest.getUsername());
 			return ResponseEntity.badRequest().build();

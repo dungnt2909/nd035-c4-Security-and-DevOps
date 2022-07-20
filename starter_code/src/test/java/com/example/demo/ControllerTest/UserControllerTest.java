@@ -26,6 +26,9 @@ public class UserControllerTest {
     @Mock
     private UserRepository userRepository;
 
+    @Mock
+    private BCryptPasswordEncoder bCryptPasswordEncoder;
+
     @InjectMocks
     private UserController userController;
 
@@ -38,7 +41,7 @@ public class UserControllerTest {
         user.setPassword("12345678");
         user.setCart(new Cart());
         Mockito.when(userRepository.findById(1L)).thenReturn(Optional.of(user));
-        Mockito.when(userRepository.findByUsername("Dung")).thenReturn(user);
+//        Mockito.when(userRepository.findByUsername("Dung")).thenReturn(user);
         ResponseEntity<User> response = userController.findById(1L);
         assertEquals(200, response.getStatusCodeValue());
     }

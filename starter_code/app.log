@@ -1,0 +1,22 @@
+2022-07-20 18:36:51,307 ERROR [main] c.e.d.c.UserController [UserController.java:57] Confirmed Password not match
+2022-07-20 18:36:51,332 ERROR [main] c.e.d.c.UserController [UserController.java:53] Password must be at least 8 characters. Unable to create user user
+2022-07-20 18:42:38,578 ERROR [main] c.e.d.c.CartController [CartController.java:42] User Dung not found
+2022-07-20 19:43:06,338 ERROR [main] c.e.d.c.UserController [UserController.java:57] Cart is empty
+2022-07-20 19:43:06,367 ERROR [main] c.e.d.c.UserController [UserController.java:57] Cart is empty
+2022-07-20 19:43:06,368 ERROR [main] c.e.d.c.UserController [UserController.java:57] Cart is empty
+2022-07-20 19:43:32,559 ERROR [main] c.e.d.c.UserController [UserController.java:57] Cart is empty
+2022-07-20 19:43:32,561 ERROR [main] c.e.d.c.UserController [UserController.java:64] Confirmed Password not match
+2022-07-20 19:43:32,584 ERROR [main] c.e.d.c.UserController [UserController.java:57] Cart is empty
+2022-07-20 19:43:32,584 ERROR [main] c.e.d.c.UserController [UserController.java:60] Password must be at least 8 characters. Unable to create user user
+2022-07-20 19:43:32,585 ERROR [main] c.e.d.c.UserController [UserController.java:57] Cart is empty
+2022-07-20 19:43:32,586 INFO [main] c.e.d.c.UserController [UserController.java:69] Success creating user username
+2022-07-20 19:43:48,215 ERROR [main] c.e.d.c.UserController [UserController.java:57] Cart is empty
+2022-07-20 19:43:48,216 ERROR [main] c.e.d.c.UserController [UserController.java:64] Confirmed Password not match
+2022-07-20 19:43:48,241 ERROR [main] c.e.d.c.UserController [UserController.java:57] Cart is empty
+2022-07-20 19:43:48,241 ERROR [main] c.e.d.c.UserController [UserController.java:60] Password must be at least 8 characters. Unable to create user user
+2022-07-20 19:43:48,242 ERROR [main] c.e.d.c.UserController [UserController.java:57] Cart is empty
+2022-07-20 19:43:48,243 INFO [main] c.e.d.c.UserController [UserController.java:69] Success creating user username
+2022-07-20 19:43:53,484 ERROR [main] c.e.d.c.OrderController [OrderController.java:38] User Dung not found
+2022-07-20 19:43:53,501 INFO [main] c.e.d.c.OrderController [OrderController.java:43] OrderId: null has been created by user: Dung
+2022-07-20 19:44:00,812 ERROR [main] c.e.d.c.CartController [CartController.java:42] User Dung not found
+2022-07-20 19:45:31,302 ERROR [main] c.e.d.c.CartController [CartController.java:42] User Dung not found
